@@ -1,4 +1,17 @@
+# Dependency & Build Output
 node_modules/
-*.tgz
 dist/
+*.tgz
+
+# Environment & Secrets (CRITICAL SECURITY)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# OS & Editor Junk
 .DS_Store
+.idea/
+.vscode/
+*.log

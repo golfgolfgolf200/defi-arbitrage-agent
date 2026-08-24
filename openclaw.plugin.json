@@ -1,7 +1,7 @@
 {
   "id": "defi-arbitrage-agent",
   "name": "@warppay402/defi-arbitrage-agent",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fetches cross-DEX arbitrage spreads, token metrics, and liquidity pool analytics on Base Mainnet via x402 USDC micropayments.",
   "configSchema": {
     "type": "object",
